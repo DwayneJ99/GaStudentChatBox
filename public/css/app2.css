@@ -5,6 +5,8 @@
 
 body{
     background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: 100%;
 }
 
 h1{
@@ -16,7 +18,3 @@ h3{
     text-align: center;
 }
 
-.img{
-    float: right;
-    size: 10%;
-}

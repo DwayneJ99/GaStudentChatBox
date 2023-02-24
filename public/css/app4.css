@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://external-preview.redd.it/HGt3dS6IfvguEFKcXlTNk5GY6oR-fSPE5pvifUK48iQ.png?auto=webp&s=e801bab1ccdea2f9dc836039fac3835bca72da6c");
+    background-size: 85%;
+}
+
+
+
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+.edit {
+    text-align: center;
+    color: white;
+}

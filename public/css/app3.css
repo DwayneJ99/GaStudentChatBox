@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/92/28/new-post-neon-sign-on-dark-background-vector-28279228.jpg");
+    background-size: 75%;
+    background-position-x: center;
+    background-position-y: right;
+   
+}
+
+
+
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+.new{
+    text-align: center;
+    color: white;
+}
+
+.button {
+    text-align: center;
+}

@@ -5,21 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Quote Page</title>
+    <link rel="stylesheet" href="/css/app3.css">
 </head>
 <body>
     <h1>New Quote Page</h1>
-    <form action="/quotes" method="POST">
-        <label>Title: <input type="text" name="title"
+    <form class = "new" action="/quotes" method="POST">
+        <label>Title: <input type="text" name="title" placeholder=" title"
         />
         </label>
-        <label>Body: <input type="text" name="body"
+        <label>Body: <input type="text" name="body" placeholder=" quote"
             />
             </label>
-            <label>Name: <input type="text" name="name"
+            <label>Name: <input type="text" name="name" placeholder="name"
                 />
                 </label>
                 <input type="submit" name="" value="Create Quote" />
     </form>
-    <a href="/quotes">Cancel</a>
+
+    <button class="button">
+
+        <a href="/quotes">Cancel</a>
+    </button>
+    
 </body>
 </html>
