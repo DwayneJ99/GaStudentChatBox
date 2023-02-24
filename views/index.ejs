@@ -5,34 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quotes Home Page</title>
+    <link rel="stylesheet" href="/css/app2.css">
 </head>
 <body>
 <button>
     <a href="/quotes/new">Create A New Quote</a>
 </button>
-    <h1>Quotes Home Page</h1>
+    <h1>Motivational Quotes</h1>
+    <h3> For GA Students</h3>
+
     
 <% for(let i = 0; i < quotes.length; i++){ %>
 <ul>
 <li>
 <a href="/quotes/<%=quotes[i].id%>">
-<button>
+<button class="button">
 <%=quotes[i].title%>
 </button>
     
 </a>
 
-
-
-
 </li>
 </ul>
-
-
-
-
+<form action="/quotes/<%=quotes[i]._id%>?_method=DELETE" method="POST" >
+    <input type="submit" value="DELETE" />
+</form>
 
 <% } %>
 
+</form>
 </body>
 </html>

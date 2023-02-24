@@ -1,7 +1,8 @@
 body{
-   
-
+   background-image: url("https://media.istockphoto.com/id/938453686/photo/abstract-red-dreamy-background.jpg?b=1&s=170667a&w=0&k=20&c=pRImR3_WMVZX1af0c3MsT4T4-7BMvOehFUV13KGw_6w=");
+        background-size: 100%;
 }
+
 
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 500px;
+    max-height: 500px;
     margin: auto;
     text-align: center;
     font-family: arial;

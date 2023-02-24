@@ -16,8 +16,6 @@ router.get('/',(req, res)=>{
     })
 })
 
-
-
 router.get('/new',(req,res)=>{
     res.render('new.ejs')
 })
@@ -47,27 +45,18 @@ router.get('/:id', (req,res)=>{
 
 
 
+router.delete('/:id',(req,res)=>{
+    
+ Quote.findByIdAndDelete(req.params.id, (err,removeQuote)=>{
+        if(err){
+            console.log(err)
+        } else {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            res.redirect('/quotes')
+        }
+        
+    })
+})
 
 
 
