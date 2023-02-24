@@ -43,6 +43,33 @@ router.get('/:id', (req,res)=>{
     })
 })
 
+router.get('/:id/edit' , (req, res)=>{
+    Quote.findById(req.params.id, (err, foundQuote)=>{
+        if(err){
+            console.log(err)
+        } else {
+            res.render('edit.ejs',{
+            quote: foundQuote
+        })
+    }
+        
+        
+    })
+})
+
+router.put('/:id', (req, res)=>{
+    Quote.findByIdAndUpdate(req.params.id, req.body, {new:true}, (err, updatedQuote)=>{
+        if(err){
+            console.log(err)
+        } else {
+            
+            res.redirect('/quotes')
+        }
+        
+    })
+})
+
+
 
 
 router.delete('/:id',(req,res)=>{

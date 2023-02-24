@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Quote</title>
+</head>
+<body>
+    <h1>Edit Quote</h1>
+    <form action="/quotes/<%=quote.id%>?_method=PUT" method="POST">
+        <label>Title: <input type="text" name="title"
+            />
+            </label>
+            <label>Body: <input type="text" name="body"
+                />
+                </label>
+                <label>Name: <input type="text" name="name"
+                    />
+                    </label>
+                    <input type="submit" name="" value="Edit Quote" />
+    </form>
+</body>
+</html>
