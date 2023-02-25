@@ -8,24 +8,31 @@
     <link rel="stylesheet" href="/css/app3.css">
 </head>
 <body>
-    <h1>New Quote Page</h1>
+    <i><h1>New Quote Page</h1></i>
+    
+    <div class="card">
+    
     <form class = "new" action="/quotes" method="POST">
         <label>Title: <input type="text" name="title" placeholder=" title"
-        />
+        /> <br>
         </label>
         <label>Body: <input type="text" name="body" placeholder=" quote"
-            />
+            /> <br>
             </label>
             <label>Name: <input type="text" name="name" placeholder="name"
-                />
+                /> <br>
                 </label>
                 <input type="submit" name="" value="Create Quote" />
-    </form>
 
-    <button class="button">
+
+ <button class="button">
 
         <a href="/quotes">Cancel</a>
     </button>
+
+    </form>
+    </div>
+   
     
 </body>
 </html>

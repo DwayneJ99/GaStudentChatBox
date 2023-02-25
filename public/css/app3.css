@@ -1,6 +1,6 @@
 body{
-    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/92/28/new-post-neon-sign-on-dark-background-vector-28279228.jpg");
-    background-size: 75%;
+    background-image: url("https://wallpapercave.com/wp/wp3752534.jpg");
+    background-size: 100%;
     background-position-x: center;
     background-position-y: right;
    
@@ -10,7 +10,7 @@ body{
 
 h1{
     text-align: center;
-    color: crimson;
+    color: white;
 }
 
 .new{
@@ -20,4 +20,15 @@ h1{
 
 .button {
     text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 25px ;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(216, 26, 219, 0.975);
 }

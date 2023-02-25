@@ -1,10 +1,7 @@
-.button {
-    background-color: red;
-    color: white;
-}
+
 
 body{
-    background-color: black;
+   
     background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80");
     background-size: 100%;
 }
@@ -18,3 +15,43 @@ h3{
     text-align: center;
 }
 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: inline-block;
+    padding: 25px ;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(237, 15, 15, 0.975);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+h4{
+    color: white;
+}
+
+.button:hover{
+    box-shadow: 0 8px 16px 0 rgba(237, 15, 15, 0.975);
+}
+
+
+
+.title {
+    animation-name: title;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-timing-function:ease-in-out;
+    position: relative;
+}
+
+@keyframes title {
+   
+   100%{
+    transform: rotate(400deg);
+    transform: rotateY(350deg);
+   }
+}

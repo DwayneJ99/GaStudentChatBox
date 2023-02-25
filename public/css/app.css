@@ -1,12 +1,13 @@
 body{
-   background-image: url("https://media.istockphoto.com/id/938453686/photo/abstract-red-dreamy-background.jpg?b=1&s=170667a&w=0&k=20&c=pRImR3_WMVZX1af0c3MsT4T4-7BMvOehFUV13KGw_6w=");
-        background-size: 100%;
+   background-image: url("https://free4kwallpapers.com/uploads/originals/2021/02/22/futuristic-cityscape.-wallpaper_.jpg");
+        background-size: 150%;
 }
 
 
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 .card {
@@ -36,7 +37,17 @@ h1 {
     width: 100%;
     font-size: 18px;
   }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.975);
+}
   
   .card button:hover {
     opacity: 0.7;
+  }
+
+  p{
+    word-wrap: break-word;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   }
